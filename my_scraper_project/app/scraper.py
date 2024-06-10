@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 def scrape_news():
     print("Iniciando raspagem de notícias...")
 
-    # Se quiser, adicione prints para verificar se o Selenium está funcionando corretamente
     print("Configurando Selenium...")
 
     service = Service(ChromeDriverManager().install())
